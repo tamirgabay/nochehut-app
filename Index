@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>מערכת נוכחות</title>
+
+  <!--
+    ============================================================
+    הוראות שימוש (חד-פעמי):
+    1. במקום המחרוזת PASTE_YOUR_EXEC_URL_HERE בשתי השורות למטה,
+       הדביקו את קישור ה-/exec האמיתי שקיבלתם מ-Deploy ב-Apps Script.
+    2. העלו את הקובץ הזה (בשם index.html) ל-GitHub Pages (או כל
+       אחסון סטטי חינמי אחר עם דומיין שאינו של גוגל).
+    3. את הקישור ל-GitHub Pages (למשל https://USERNAME.github.io/REPO/)
+       שולחים לכל המנהלים - זה הקישור שלא ייחטף ע"י אפליקציית Drive.
+    ============================================================
+  -->
+
+  <script>
+    window.location.replace("https://script.google.com/macros/s/AKfycbw2unWA2yx7nn4uI8ApfpkMW5EC1j66hyIy_j1kxWVUIQg1BvUSR7chkg9N6ErBPEi_tw/exec");
+  </script>
+  <meta http-equiv="refresh" content="0; url=https://script.google.com/macros/s/AKfycbw2unWA2yx7nn4uI8ApfpkMW5EC1j66hyIy_j1kxWVUIQg1BvUSR7chkg9N6ErBPEi_tw/exec">
+
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #f4f6f8;
+      color: #222;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+      direction: rtl;
+    }
+    .box { padding: 24px; }
+    a { color: #2f5d8a; font-weight: 600; }
+    .spinner {
+      width: 34px; height: 34px; margin: 0 auto 16px;
+      border: 4px solid #dde3ea; border-top-color: #2f5d8a;
+      border-radius: 50%; animation: spin 0.8s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <div class="spinner"></div>
+    <p>טוען את מערכת הנוכחות...</p>
+    <p style="font-size:13px;color:#777;">
+      אם לא מועברים אוטומטית תוך שנייה,
+      <a href="https://script.google.com/macros/s/AKfycbw2unWA2yx7nn4uI8ApfpkMW5EC1j66hyIy_j1kxWVUIQg1BvUSR7chkg9N6ErBPEi_tw/exec">לחצו כאן</a>.
+    </p>
+  </div>
+</body>
+</html>
